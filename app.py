@@ -7,7 +7,7 @@ st.set_page_config(page_title="Multivariate Analysis Tool", page_icon="📊", la
 st.title("📊 Multivariate Analysis Tool")
 st.markdown("Explore complex data relationships using **11 powerful statistical methods**.")
 
-# ---- FEATURE CARDS ----
+# ---- FEATURE CARDS (Row 1) ----
 col1, col2, col3 = st.columns(3)
 
 with col1:
@@ -28,6 +28,7 @@ with col3:
     if st.button("Go to Clustering", use_container_width=True):
         st.switch_page("pages/03_Hierarchical_Clustering.py")
 
+# ---- FEATURE CARDS (Row 2) ----
 col4, col5, col6 = st.columns(3)
 
 with col4:
@@ -48,6 +49,7 @@ with col6:
     if st.button("Go to Factor Analysis", use_container_width=True):
         st.switch_page("pages/06_Factor_Analysis.py")
 
+# ---- FEATURE CARDS (Row 3) ----
 col7, col8, col9 = st.columns(3)
 
 with col7:
@@ -68,6 +70,7 @@ with col9:
     if st.button("Go to CCA", use_container_width=True):
         st.switch_page("pages/09_CCA.py")
 
+# ---- FEATURE CARDS (Row 4) ----
 col10, col11 = st.columns(2)
 
 with col10:
